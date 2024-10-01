@@ -19,10 +19,9 @@ static const char *colors[][3]      = {
 };
 
 static const char *const autostart[] = {
-	"xrandr --output HDMI-1 --rotate inverted", NULL,
-	"xwallpaper --zoom /home/kindo/wall.png", NULL,
+	"xrandr", "--output", "HDMI-1", "--rotate", "inverted", NULL,
+	"xwallpaper", "--zoom", "/home/kindo/wall.png", NULL,
 	"kindo-app", NULL,
-	"unclutter -idle 1", NULL,
 	NULL /* terminate */
 };
 
