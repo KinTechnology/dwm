@@ -21,6 +21,7 @@ static const char *colors[][3]      = {
 static const char *const autostart[] = {
 	"xrandr", "--output", "HDMI-1", "--rotate", "inverted", NULL,
 	"xwallpaper", "--zoom", "/home/kindo/.local/share/kindo/wallpaper.png", NULL,
+	"/usr/local/bin/nocursor",
 	"kindo-app", NULL,
 	NULL /* terminate */
 };
